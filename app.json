@@ -4,7 +4,7 @@
     "slug": "Desafio-01-Praticando-os-conceitos-do-React-Native",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./src/assets/logos/logo.svg",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
@@ -19,12 +19,16 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./src/assets/logos/logo.svg",
         "backgroundColor": "#ffffff"
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
-    }
+      "bundler": "metro",
+      "favicon": "./src/assets/favicon.png"
+    },
+    "plugins": [
+      "expo-font"
+    ]
   }
 }
